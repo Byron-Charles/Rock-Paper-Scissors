@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: yellow;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+/* .icon-container {
+  position: relative;
+} */
+
+.icon {
+  /* position: absolute; */
+  font-size: 4rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  padding: 2rem;
+  background: white;
+  margin-right: 2rem;
+  border: 2px black solid;
+  transition: ease-out 0.5s all;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* .icon-container:hover {
+  transform: scale(1.2);
+  transition: ease-out 0.5s all;
+} */
+
+.icons-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.new-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.scoreboards-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.new-btn {
+  width: 10rem;
+  height: 4rem;
+  border: solid 2px black;
+  padding-top: 1.4rem;
+  text-align: center;
+  transition: ease-out 0.5s all;
+}
+
+.new-btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.player-scoreboard {
+  border: 2px black solid;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.player-score {
+  font-size: 10rem;
+}
+.computer-scoreboard {
+  border: 2px black solid;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.computer-score {
+  font-size: 10rem;
+}
+
+.message {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .icon {
+    font-size: 10rem;
+  }
+}
